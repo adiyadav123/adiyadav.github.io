@@ -1,0 +1,240 @@
+<html>
+    <head>
+        <title>Website</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+              rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="header">
+            <h1>Code With Aditya </h1><br>
+         <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">Services </a></li>
+             <li><a href="#">Contacts </a></li>
+             <li><a href="#">About </a></li>
+         </ul>
+        </div>
+        <center>
+        <div class="main">
+            <input type="checkbox"  id="toggle">
+           <label for="toggle"></label><br>
+           
+          <div class="card1">
+            <p>Hope You Like This Website</p>
+          </div><br>
+          <div class="card2">
+              Here Is Links Of All Websites<br> 
+          </div><br>
+          <div class="card3">
+              Day And Night Mode Toggle <br>
+              <a href="file:///C:/Users/intel%20core%20i3/Documents/day%20night%20toggle.html">Click Here To See </a>
+          </div><br>
+          <div class="card4">
+            Loader Animation <br>
+            <a href="file:///C:/Users/intel%20core%20i3/Documents/loader%204.html">Click Here To See </a>
+          </div><br>
+          <div class="card5">
+              Audio Element <br>
+              <a href="file:///C:/Users/intel%20core%20i3/Documents/audio.html">Click Here To See </a>
+          </div><br>
+           <div class="card6">
+               Glassmorphism Card <br>
+               <a href="file:///C:/Users/intel%20core%20i3/Documents/website2.html">Click Here To See </a>
+           </div>
+           <div class="card">
+            <footer>
+                Thank You For Visiting My website 
+            </footer>
+            </div>
+        </div><br>
+        </center>
+       
+            <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    transition:all .5s ease;
+   
+}
+input{
+    visibility:hidden;
+}
+label{
+    margin:20px;
+    display:inline-block ;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    box-shadow:5px 5px 5px gray;
+}
+label::before{
+    content:"light_mode";
+    font-family:"Material Icons";
+    font-size:30px;
+    position:relative;
+    color:black;
+    top:10px;
+}
+input:checked + label::before{
+    content:"dark_mode";
+    font-family:"Material Icons";
+    font-size:30px;
+    position:relative;
+    top:10px;
+    color:white;
+}
+.card{
+    margin:20px;
+    display:inline-block ;
+    border:1px solid black;
+    font-size:20px;
+    letter-spacing:2px ;
+    word-spacing:2px;
+    box-shadow:5px 5px 5px gray;
+    background-color:transparent;
+}
+input:checked ~ div,h1{
+    background:black;
+    color:white;
+    box-shadow:10px 10px 10px black,
+               10px 10px 12px black,
+               10px 10px 15px black,
+               10px 10px 20px #303030;
+    font-family:'Poppins',sans-serif;
+    border-radius:10px;
+}
+input:checked + label{
+      background:black;
+      box-shadow:5px 5px 5px black;
+      
+}
+
+h1{
+    margin: 5px ;
+    padding: 5px ;
+    background: black;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    animation: margin-change 1s linear infinite ;
+    border: 1px solid black;
+    border-radius: 10px ;
+}
+@keyframes margin-change{
+    0%{
+      color: #549da0;
+    }
+    25%{
+        
+         color: rgb(212, 230, 115);
+    }
+    50%{
+      
+        color: aqua;
+    }
+    75%{
+       
+        color: #ff69b4;
+    }
+    100%{
+       
+         color: pink;
+        
+    }
+}
+ul{
+    position:relative;
+    margin: 5px ;
+    color: white ;
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: right;
+    
+}
+li a{
+    color:black;
+    background-color: rgb(250, 241, 241);
+    text-decoration: none;
+    padding: 4px ;
+    
+}
+li a:hover{
+    color: white;
+    background-color: black;
+    transition: .5s ease;
+}
+.card1{
+    padding: 9px;
+    font-size: 20px 
+}
+
+.card2{
+    padding: 10px;
+    font-size: 20px ;
+}
+.card3{
+    padding: 9px;
+    font-size: 20px 
+}
+.card4{
+    padding: 9px;
+    font-size: 20px 
+}
+.card5{
+    padding: 9px;
+    font-size: 20px 
+}
+.card6{
+    padding: 9px;
+    font-size: 20px; 
+}
+ card a{
+    color: white ;
+}
+.card1{
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black,
+     10px 10px 10px black;
+    border-radius: 20px ;
+}
+.card2{
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black,
+     10px 10px 10px black;
+    border-radius: 20px;
+}
+.card3{
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black,
+    10px 10px 10px black;
+    border-radius: 20px ;
+}
+.card4{
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black,
+     10px 10px 10px black;
+    border-radius: 20px ;
+}
+.card5{
+    border: 1px solid black;
+    box-shadow:  10px 10px 10px black,
+     10px 10px 10px black;
+    border-radius: 20px ;
+}
+.card6{
+    border: 1px solid black;
+    box-shadow:  10px 10px 10px black,
+     10px 10px 10px black;
+    border-radius: 20px ;
+}
+
+
+
+        </style>
+        <script>
+            alert("Click On The Sun Icon To On Night Mode ")
+        </script>
+    </body>
+</html>
